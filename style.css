@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    min-height: 100vh;
+    font-family: "Roboto" , sans-serif;
+    background-image: url(images/cover.jpg);
+    position: relative;
+}
+
+header
+{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+
+
+}
+
+.title-head
+{
+    font-size: 3rem;
+    color:#fff;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.main-nav-list
+{
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.main-nav-link
+{
+    border-radius: 20px;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited
+{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+    padding: 2rem;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active
+{
+    background: #fff;
+    color: black;
+
+}
+
+.center
+{
+    position: absolute;
+    top:53%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    background: rgba(238, 234, 234, 0);
+    padding: 0 2rem;
+    text-align: center;
+
+}
+
+button
+{
+    padding: 1.8rem 2.4rem;
+    border-radius: 20px;
+    margin: 0 1rem;
+    font-size: 2rem;
+    border: none;
+    color: #333;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+button:first-child
+{
+    background: none;
+    color: #fff;
+}
+
+button:first-child:hover
+{
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btns
+{
+    margin-top: 2rem;
+    
+}
+
+.title
+{
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 600;
+}
